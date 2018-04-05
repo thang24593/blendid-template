@@ -1,0 +1,19 @@
+.copy {
+  line-height: 1.5;
+
+  &.copy-1 {
+    font-size: 1.6rem;
+
+    @include respond-to(L) {
+      font-size: 1.8rem;
+    }
+  }
+
+  &.copy-2 {
+    font-size: 1.4rem;
+
+    @include respond-to(L) {
+      font-size: 1.6rem;
+    }
+  }
+}
